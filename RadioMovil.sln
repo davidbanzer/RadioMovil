@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioMovil.Api", "RadioMovil.Api\RadioMovil.Api.csproj", "{96A3B11E-1686-4016-A92B-D8A29F05142E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioMovil.Application", "RadioMovil.Application\RadioMovil.Application.csproj", "{3ADD6B17-5CE6-44B3-9F6C-0A4CF565A857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioMovil.Contracts", "RadioMovil.Contracts\RadioMovil.Contracts.csproj", "{52DF3186-DB2E-428D-8ED4-46F1116E3B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioMovil.Domain", "RadioMovil.Domain\RadioMovil.Domain.csproj", "{DB2C9D74-38B3-4277-AA34-24617B51E237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioMovil.Infrastructure", "RadioMovil.Infrastructure\RadioMovil.Infrastructure.csproj", "{F6AA0C5C-C6DF-40BB-A6C0-3F04DCFF6612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A3B11E-1686-4016-A92B-D8A29F05142E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A3B11E-1686-4016-A92B-D8A29F05142E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A3B11E-1686-4016-A92B-D8A29F05142E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A3B11E-1686-4016-A92B-D8A29F05142E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADD6B17-5CE6-44B3-9F6C-0A4CF565A857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADD6B17-5CE6-44B3-9F6C-0A4CF565A857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADD6B17-5CE6-44B3-9F6C-0A4CF565A857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADD6B17-5CE6-44B3-9F6C-0A4CF565A857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DF3186-DB2E-428D-8ED4-46F1116E3B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DF3186-DB2E-428D-8ED4-46F1116E3B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DF3186-DB2E-428D-8ED4-46F1116E3B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DF3186-DB2E-428D-8ED4-46F1116E3B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2C9D74-38B3-4277-AA34-24617B51E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2C9D74-38B3-4277-AA34-24617B51E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2C9D74-38B3-4277-AA34-24617B51E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2C9D74-38B3-4277-AA34-24617B51E237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6AA0C5C-C6DF-40BB-A6C0-3F04DCFF6612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AA0C5C-C6DF-40BB-A6C0-3F04DCFF6612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AA0C5C-C6DF-40BB-A6C0-3F04DCFF6612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AA0C5C-C6DF-40BB-A6C0-3F04DCFF6612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
