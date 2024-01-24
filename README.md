@@ -1,6 +1,6 @@
 # Backend de Funcionalidad de Solicitudes y Asignación de Taxis
 
-Este repositorio contiene el backend de la funcionalidad que permite a los clientes solicitar servicios, a la operadora recibir estas solicitudes y asignar un taxi según la parada más cercana.
+Este repositorio contiene el backend (dominio) de la funcionalidad que permite a los clientes solicitar servicios, a la operadora recibir estas solicitudes y asignar un taxi según la parada más cercana.
 
 ## Funcionalidades
 
