@@ -1,10 +1,18 @@
-# Empresa de Radio Móvil
-Se ha implementado un prototipo que permite a los clientes solicitar diversos servicios de la aplicación, tales como Carrera, Carrera por Hora, Entrega de Paquete y Compra de Pedido.
+# Backend de Funcionalidad de Solicitudes y Asignación de Taxis
 
-## Funcionalidades Implementadas
-- **Solicitud de Servicios:** Los clientes pueden utilizar la aplicación para realizar solicitudes de diferentes tipos de servicios.
-- **Asignación de Solicitud a Taxi:** Las solicitudes realizadas por los clientes llegan a la operadora, quien está habilitada para asignar dichas solicitudes a un taxi disponible en la parada más cercana.
-- **Priorización mediante Cola:** Para garantizar un orden eficiente, los taxis deben seguir el orden de la cola en la parada correspondiente.
+Este repositorio contiene el backend de la funcionalidad que permite a los clientes solicitar servicios, a la operadora recibir estas solicitudes y asignar un taxi según la parada más cercana.
+
+## Funcionalidades
+
+- **Solicitud de Servicios por Clientes:** Los clientes deben poder realizar solicitudes de diferentes servicios, como Carrera, Carrera por Hora, Entrega de Paquete y Compra de Pedido.
+
+- **Recepción de Solicitudes por Operadora:** La operadora debe recibir las solicitudes realizadas por los clientes y gestionarlas.
+
+- **Asignación de Taxis según Parada:** La operadora debe tener la capacidad de asignar un taxi disponible a una solicitud, priorizando la parada más cercana.
+
+## Desarrollo de Prototipo
+
+Adicionalmente, se ha creado un prototipo funcional que demuestra la interacción entre clientes, operadora y taxis. Este prototipo proporciona una visualización práctica de cómo operarán las funciones en la aplicación final.
 
 ## Capturas de Pantalla del Prototipo
 **Pantalla de Seleccionar Servicio**
