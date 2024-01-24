@@ -1,0 +1,28 @@
+using RadioMovil.Domain.Common.Models;
+
+namespace RadioMovil.Domain.StandAggregate.ValueObjects;
+
+public sealed class StandId : ValueObject
+{
+    public Guid Value { get; }
+
+    private StandId(Guid value)
+    {
+        Value = value;
+    }
+
+    public static StandId CreateUnique()
+    {
+        return new StandId(Guid.NewGuid());
+    }
+
+    public static StandId Create(Guid value)
+    {
+        return new StandId(value);
+    }
+
+    public override IEnumerable<object> GetEqualityComponents()
+    {
+        yield return Value;
+    }
+}
